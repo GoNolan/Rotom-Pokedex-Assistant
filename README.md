@@ -27,6 +27,7 @@ This is a web application designed for use by public library partrons, in partic
 
 ### Using the Application
 As an example of what can be asked of the Rotom Assistant application, consider trying one of the following prompts. These prompts are not meant to be perfect examples of what can be asked of the application. They are prompts that show both the potential benefits and drawbacks of the information the AI delivers:
+    
     I have a normal and flying type Pidgeot. It is level 42. It is fighting against an electric type Electabuzz. The Electabuzz is level 40. What do you think about this?
 
     I do not know what to do about this pokemon. I am fighting a level 25 Scyther. My Grumpig is also level 25. It is a psychic type pokemon. Is it a good idea to use my Grumpig against this Scyther?
