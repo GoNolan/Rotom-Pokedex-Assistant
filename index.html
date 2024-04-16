@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+  <title>The Rotom Pokedex Assistant</title>
+  <link
+    rel="shortcut icon"
+    href="{{ url_for('static', filename='pokeball.png') }}"
+  />
+  <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}" />
+</head>
+
+<body>
+  <img src="{{ url_for('static', filename='Rotom_Dex.png') }}" class="icon" />
+  <h3>The Rotom Pokedex Assistant</h3>
+  <p>Rotom here, ready to help out any trainer looking to push on with their Pokemon adventure! Stuck facing a pokemon and don't know what to do? Just let me know what pokemon you're up against, it's type and it's level, as well as your own pokemon, its type and its level, and I'll give you a few tips on how to be victorious!</p>
+  <form action="/" method="post">
+    <label for="answer">Ask your question!</label><br>
+    <textarea name="answer" placeholder="How can I help you?" required /></textarea>
+    <input type="submit" value="Submit" />
+  </form>
+  <h3>Here's what I think:</h3>
+  {% if result %}
+  <div class="result">{{ result }}</div>
+  {% else %}
+  {% endif %}
+</body>
